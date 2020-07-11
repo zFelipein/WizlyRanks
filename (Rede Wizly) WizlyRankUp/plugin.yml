@@ -1,0 +1,7 @@
+main: me.felipe.wizly.rankup.Main
+name: WizlyRanks
+version: 1.2
+author: zFelipein
+commands:
+  rankup:
+  ranks:

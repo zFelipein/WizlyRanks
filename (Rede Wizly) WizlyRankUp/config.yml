@@ -1,0 +1,46 @@
+# Grupo padrao
+default_group: Membro
+
+# Anunciar ao passar de rank
+rankup:
+  anunciar: true
+  anuncio: '&b[Ranks] &f@player&a upou a porra do rank &r@rank'
+
+mensagens:
+  rank_cab: '&eLista de ranks do servidor:'
+  rank_list: '&r @rank &7--> &2$&f@custo'
+  max: '&cVoce alcancou o rank maximo!'
+  unknown: '&cNao foram encontrados ranks.'
+  insuficient_money: '&cVoce nao possui money suficiente para passar de rank'
+  evoluiu: '&aVoce passou para o rank @rank'
+ranks:
+  Creeper I:
+    display_name: '&a[Creeper I]'
+    posicao: 1
+    rankup_cost: 
+    pex_group: Creeper1
+  Creeper II:
+    display_name: '&a[Creeper II]'
+    posicao: 2
+    rankup_cost: 200
+    pex_group: Creeper2
+  Creeper III:
+    display_name: '&a[Creeper III]'
+    posicao: 3
+    rankup_cost: 300
+    pex_group: Creeper3
+  Zombie I:
+    display_name: '&2[Zombie I]'
+    posicao: 4
+    rankup_cost: 400
+    pex_group: Zombie1
+  Zombie II:
+    display_name: '&2[Zombie II]'
+    posicao: 5
+    rankup_cost: 500
+    pex_group: Zombie2
+  Zombie III:
+    display_name: '&2[Zombie III]'
+    posicao: 6
+    rankup_cost: 600
+    pex_group: Zombie3
